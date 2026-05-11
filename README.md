@@ -1,3 +1,55 @@
+# 🥗 NutriPlan Studio
+
+A modern nutrition tracking and meal planning web app built with React.js
+
+## 🚀 Features
+- Weekly meal planner
+- Daily calorie & macro tracker
+- Recipe library with search & filters
+- Auto-generated shopping list
+- Goal setting with BMR / TDEE calculator
+- Dark mode
+- Fully responsive
+
+## 🛠️ Tech Stack
+- React.js 18
+- React Router DOM 6
+- Zustand (state management)
+- Recharts (data visualization)
+- Tailwind CSS
+- Lucide React (icons)
+- date-fns
+- Vite
+
+## ⚙️ Setup
+
+# Clone the repo
+git clone https://github.com/yourusername/nutriplan-studio.git
+
+# Install dependencies
+cd nutriplan-studio
+npm install
+
+# Add environment variables
+cp .env.example .env
+# Add your USDA and Spoonacular API keys
+
+# Start dev server
+npm run dev
+
+## 📁 Folder Structure
+src/
+├── pages/         # Route-level components
+├── components/    # Reusable UI components
+├── hooks/         # Custom React hooks
+├── store/         # Zustand state stores
+├── context/       # React context providers
+├── services/      # API calls
+├── utils/         # Helper functions
+└── constants/     # App-wide constants
+
+## 📄 License
+MIT
 # Welcome to your Lovable project
 
 ## Project info
